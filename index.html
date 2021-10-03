@@ -16,13 +16,13 @@
     <form id="survey-form">
       <div>
           <label id="name-label">Name</label>
-            <input id="name" type="text"  value="name" placeholder="Enter your name">
+            <input id="name" type="text"  value="name" placeholder="Enter your name" required>
         </div>
         <br>
         <div>
           <label id="email-label">Email</label>
       
-            <input type="email" id="email"  value="email" placeholder="Enter your email">
+            <input type="email" id="email"  value="email" placeholder="Enter your email" required>
         </div>
         <br>
         <div>
@@ -45,11 +45,18 @@
         <br>
         <br>
         <p>Would you recommend freeCodeCamp to a friend?</p>
-        <ul>
-          <li>Definitely</li>
-          <li>Maybe</li>
-          <li>Not sure</li>
-        </ul>
+        <div>
+          <input  type="radio" value="Definetly" name="recommend">
+         <label for="Definetly">Definetely</label>
+        </div>
+        <div>
+          <input  type="radio" value="Maybe" name="recommend">
+         <label for="Maybe">Maybe</label>
+        </div>
+        <div>
+          <input type="radio" value="Not sure" name="recommend">
+         <label for="Not Sure">Not sure</label>
+        </div>
         <br>
         <p>What is your favorite feature of freeCodeCamp?</p>
         <select>
@@ -60,21 +67,64 @@
         </select>
         <p>What would you like to see improved? </p>
         <ul>
-        <li>Front-end Projects</li>
-        <li>Back-end Projects</li>
-        <li>Data visualization</li>
-        <li>Challenges</li>
-        <li>Open Source Community</li>
-        <li>Gitter Help Rooms</li>
-        <li>Videos</li>
-        <li>City Meetups</li>
-        <li>Wiki</li>
-        <li>Forum</li>
-        <li>Additional cources</li>
-        </ul>
+        <div>
+          <input type="checkbox" value="Front-end Projects">
+         <label>Front-end Projects</label>
+        </div>
+
+        <div>
+          <input type="checkbox" value="Back-end Projects">
+         <label>Back-end Projects</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" value="Data visualisation">
+         <label>Data visualisation</label>
+        </div>
+
+        <div>
+          <input type="checkbox" value="Challenges">
+         <label>Challenges</label>
+        </div>
+
+        <div>
+          <input type="checkbox"  value="Open Source Community">
+         <label>Open Source Community</label>
+        </div>
+
+        <div>
+          <input type="checkbox" value="Gitter Help Rooms">
+         <label>Gitter Help rooms</label>
+        </div>
+
+        <div>
+          <input type="checkbox"  value="videos">
+         <label>videos</label>
+        </div>
+
+        <div>
+          <input type="checkbox"  value="City Meetups">
+         <label>City Meetups</label>
+        </div>
+
+        <div>
+          <input type="checkbox"  value="Wiki">
+         <label>Wiki</label>
+        </div>
+
+        <div>
+          <input type="checkbox"  value="Forum">
+         <label>Forum</label>
+        </div>
+
+        <div>
+          <input type="checkbox"  value="Additional Courses">
+          <label>Additional Courses</label>
+        </div>
+        
         <br>
         <p>Any comments or suggestions?</p>
-        <textarea></textarea>
+        <textarea placeholder="Enter your comment"></textarea>
         <input type="submit" value="Submit" id="submit">
 
         
