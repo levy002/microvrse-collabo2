@@ -7,8 +7,21 @@
     font-size: 20px;
 }
 #survey-form{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
     border: 1px hidden;
     background-color: rgba(27,27,50,0.8);
     font-size: 12px;
     color:white;
+}
+input{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30%;
+}
+select{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30%;
 }
