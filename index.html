@@ -15,21 +15,21 @@
 
     <form id="survey-form">
       <div>
-          <p id="name">Name</p>
-            <input type="text" placeholder="Enter your name">
+          <p>Name</p>
+            <input id="name" type="text" placeholder="Enter your name">
         </div>
         <div>
-          <p id="email">Email</p>
-            <input type="email" placeholder="Enter your email">
+          <p>Email</p>
+            <input id="email" type="email" placeholder="Enter your email">
         </div>
         <div>
-          <p id="age">Age</p>
-            <input type="age" placeholder="Age">
+          <p>Age</p>
+            <input id="number" type="number" placeholder="Age" min="10" max="30">
         </div>
         <div>
           <p>Which option best describes your current role?</p>
           <select>
-            <option>Select current role</option>
+            <option></option>
             <option>Student</option>
             <option>Full Time Job</option>
             <option>Full Time Learner</option>
@@ -37,6 +37,22 @@
             <option>Others</option>
           </select>
         </div>
+        <br>
+        <br>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <ul>
+          <li>Definitely</li>
+          <li>Maybe</li>
+          <li>Not sure</li>
+        </ul>
+        <br>
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select>
+          <option value="">Challenge</option>
+          <option value="">Projects</option>
+          <option value="">Community</option>
+          <option value="">Open Source</option>
+        </select>
 
     </form>
   </body>

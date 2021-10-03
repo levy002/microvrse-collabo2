@@ -16,12 +16,17 @@
     color:white;
 }
 input{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px 30%;
+    padding: 10px 60%;
+    padding-left: 2px;
+    margin-left: 22px;
 }
 select{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px 30%;
+    padding: 10px 65%;
+    padding-left: 2px;
+    margin-left: 22px;
+
+}
+form p{
+    font-size: 20px;
+    margin-left: 22px;
 }
