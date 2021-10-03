@@ -15,26 +15,31 @@
 
     <form id="survey-form">
       <div>
-          <p>Name</p>
-            <input id="name" type="text" placeholder="Enter your name">
+          <label id="name-label">Name</label>
+            <input id="name" type="text"  value="name" placeholder="Enter your name">
         </div>
+        <br>
         <div>
-          <p>Email</p>
-            <input id="email" type="email" placeholder="Enter your email">
+          <label id="email-label">Email</label>
+      
+            <input type="email" id="email"  value="email" placeholder="Enter your email">
         </div>
+        <br>
         <div>
-          <p>Age</p>
+          <label id="number-label">Age</label>
+
             <input id="number" type="number" placeholder="Age" min="10" max="30">
         </div>
+        <br>
         <div>
           <p>Which option best describes your current role?</p>
-          <select>
+          <select id="dropdown">
             <option></option>
-            <option>Student</option>
-            <option>Full Time Job</option>
-            <option>Full Time Learner</option>
-            <option>Prefer not to say</option>
-            <option>Others</option>
+            <option value="student">Student</option>
+            <option value="fulltimeJob">Full Time Job</option>
+            <option value="fulltimeLearner">Full Time Learner</option>
+            <option value="notsay">Prefer not to say</option>
+            <option value="other">Others</option>
           </select>
         </div>
         <br>
@@ -70,7 +75,7 @@
         <br>
         <p>Any comments or suggestions?</p>
         <textarea></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="submit">
 
         
     </form>
