@@ -6,7 +6,9 @@
     font-style: italic;
     font-size: 20px;
 }
-#Surfey-Form{
-    text-align: center;
-    font-size: 20px;
+#survey-form{
+    border: 1px hidden;
+    background-color: rgba(27,27,50,0.8);
+    font-size: 12px;
+    color:white;
 }
